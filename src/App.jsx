@@ -33,7 +33,19 @@ function App() {
     <div className="App">
       <h1>Contador</h1>
       <h3>{count}</h3>
-      <button className='btn btn-primary' onClick={()=> sumar()}>Sumar</button>
+      <button className='btn btn-warning' onClick={()=> sumar()}>Sumar</button>
+
+      <div class="dropdown mt-5">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://github.com/Hakidoto">El gulukot0</a></li>
+    <li><a class="dropdown-item" href="https://github.com/DavidPeralta36">Erre-Tard</a></li>
+  </ul>
+</div>
+      
     </div>
   )
 }
